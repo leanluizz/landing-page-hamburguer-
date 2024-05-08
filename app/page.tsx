@@ -14,14 +14,13 @@ import 'animate.css';
 
 export default function Home() {
 
-
   const [Page , setPage] = useState<any>(<HomePage />)
   const [barLinksMenuMarginLeft, setBarLinksMenuMarginLeft] = useState(0);
-  const [barLinksMenuWidth, setBarLinksMenuWidth] = useState(`${window.innerWidth < 800 ? 100 : 30}%`)
+  const [barLinksMenuWidth, setBarLinksMenuWidth] = useState(`${process.browser ? window.innerWidth < 800 ? 100 : 30: null}%`)
   function handleMouseMove(event: any) {
       const navbarRect = event.currentTarget.getBoundingClientRect();
       const mouseX = event.clientX - navbarRect.left - 50;
-      window.innerWidth < 800 ? null : setBarLinksMenuMarginLeft(mouseX);  
+      process.browser ? window.innerWidth < 800 ? null : setBarLinksMenuMarginLeft(mouseX) : null 
     }
     const TradePages = (e: any) => {
       const { target } = e;
