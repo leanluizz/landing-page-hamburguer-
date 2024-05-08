@@ -14,14 +14,14 @@ import 'animate.css';
 
 export default function HomePage () {
     return(
-        <>
-        <div className="md:flex justify-center rounded-lg p-1 drop-shadow-2xl bg-gradient-to-r from-slate-200 to-slate-100 hover:from-orange-500 hover:to-yellow-500"> 
+        <div className='animate__animated animate__zoomIn'>
+        <div className="md:flex justify-center rounded-lg p-12 m-12 drop-shadow-2xl bg-gradient-to-r from-slate-200 to-slate-100 hover:from-orange-500 hover:to-yellow-500"> 
         <Image className="animate__animated animate__rollIn hidden md:block w-fit m-6 p-12" src={ImageHome} alt="photo" />
         <div className='flex-col items-center'>
         <h1 className="w-64 text-6xl m-1">
         Saboreie momentos de pura indulgência em cada mordida!
         </h1>
-        <div className='flex'>
+        <div className='flex md:hover:scale-125 transition'>
         <button className={`${roboto.className} animate__animated animate__bounceIn drop-shadow-2xl p-2 m-4 rounded text-1xl text-white bg-gradient-to-r from-orange-600 via-orange-600 to-orange-600 hover:from-amber-900 hover:to-amber-900`}>
             Quero um!
         </button>
@@ -57,6 +57,6 @@ export default function HomePage () {
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
