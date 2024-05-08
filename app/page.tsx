@@ -16,11 +16,11 @@ export default function Home() {
 
   const [Page , setPage] = useState<any>(<HomePage />)
   const [barLinksMenuMarginLeft, setBarLinksMenuMarginLeft] = useState(0);
-  const [barLinksMenuWidth, setBarLinksMenuWidth] = useState(`${process.browser ? window.innerWidth < 800 ? 100 : 30: null}%`)
+  const [barLinksMenuWidth, setBarLinksMenuWidth] = useState(`${30}%`)
   function handleMouseMove(event: any) {
       const navbarRect = event.currentTarget.getBoundingClientRect();
       const mouseX = event.clientX - navbarRect.left - 50;
-      process.browser ? window.innerWidth < 800 ? null : setBarLinksMenuMarginLeft(mouseX) : null 
+      setBarLinksMenuMarginLeft(mouseX)
     }
     const TradePages = (e: any) => {
       const { target } = e;
