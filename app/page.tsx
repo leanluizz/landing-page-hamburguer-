@@ -57,7 +57,7 @@ export default function Home() {
                       <li onClick={TradePagesClick} onMouseEnter={TradePages} className="cursor-pointer text-xl p-8"><a>Hamburgueres</a></li>
                       <li onClick={TradePagesClick} onMouseEnter={TradePages} className="cursor-pointer text-xl p-8"><a>Contact</a></li>
                   </div>
-                  <hr style={{ width:barLinksMenuWidth, marginLeft: barLinksMenuMarginLeft }} className="border border-orange-500" />
+                  <hr style={{ width:barLinksMenuWidth, marginLeft: barLinksMenuMarginLeft }} className="hidden md:block border border-orange-500" />
               </ul>
           </div>
       </nav>
