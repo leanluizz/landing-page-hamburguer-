@@ -170,8 +170,7 @@ export default function HomePage() {
                 </div>
             </div>
             <main
-                style={{ display: 'flex', flexDirection: window.innerWidth < 700 ? 'column-reverse' : 'row' }}
-                className='md:h-dvh items-center justify-evenly bg-orange-500'>
+                className='md:h-dvh md:flex items-center justify-evenly bg-orange-500'>
                 <div className=''>
                     <p className='p-2 text-3xl w-80'>
                         Sinta o delicioso aroma, experimente a perfeição em cada mordida. Somos reconhecidos como uma das principais hamburguerias da cidade, onde a qualidade e a paixão se encontram em cada hambúrguer. Venha saborear o melhor e descubra por que somos uma escolha tão apreciada pelos amantes da boa comida. Seja bem-vindo à nossa casa do sabor!
@@ -243,7 +242,7 @@ export default function HomePage() {
                     </div>
                     <div className='p-3 text-2xl rounded-b-lg bg-slate-200'>
                     <p className='p-2 text-3xl'>Ricardo</p>
-                        "Estes hambúrgueres são incríveis! Eu simplesmente amei o sabor e a textura. Definitivamente vou voltar para mais!"
+                    <p>&quot;Estes hambúrgueres são incríveis! Eu simplesmente amei o sabor e a textura. Definitivamente vou voltar para mais!&quot;</p>
                     </div>
                 </div>
                 <div onClick={RotateTwo} className='flex-col p-12 card rounded-t-lg'>
@@ -252,7 +251,7 @@ export default function HomePage() {
                     </div>
                     <div className='p-3 text-2xl rounded-b-lg bg-slate-200'>
                     <p className='p-2 text-3xl'>Han-Shi</p>
-                    "Que delícia esses hambúrgueres! Estou encantada com o sabor e a qualidade. Com certeza!"
+                    <p>&quot;Que delícia esses hambúrgueres! Estou encantada com o sabor e a qualidade. Com certeza!&quot;</p>
                     </div>
                 </div>
                 <div onClick={RotateThree} className='flex-col p-12 card rounded-t-lg'>
@@ -261,7 +260,7 @@ export default function HomePage() {
                     </div>
                     <div className='p-3 text-2xl rounded-b-lg bg-slate-200'>
                     <p className='p-2 text-3xl'>Ana</p>
-                    "Estou apaixonada por esses hambúrgueres! Sabor incrível e qualidade excepcional. Com certeza, voltarei em breve!"
+                    <p>&quot;Estou apaixonada por esses hambúrgueres! Sabor incrível e qualidade excepcional. Com certeza, voltarei em breve!&quot;</p>
                     </div>
                 </div>
             </div>
