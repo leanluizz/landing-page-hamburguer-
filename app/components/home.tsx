@@ -212,7 +212,7 @@ export default function HomePage() {
                         Sinta o delicioso aroma, experimente a perfeição em cada mordida. Somos reconhecidos como uma das principais hamburguerias da cidade, onde a qualidade e a paixão se encontram em cada hambúrguer. Venha saborear o melhor e descubra por que somos uma escolha tão apreciada pelos amantes da boa comida. Seja bem-vindo à nossa casa do sabor!
                     </p>
                 </div>
-                <div className='animate-pulse'>
+                <div>
                     <Image className='p-2 rounded-full w-80' src={Hamburguer} alt='photo' />
                 </div>
             </main>
