@@ -313,7 +313,7 @@ export default function HomePage() {
             </div>
             <div className='md:mt-96 md:mb-52'>
             <h1 className='bg-orange-500  text-center text-6xl'>Patrocinadores</h1>
-            <div className='flex items-center justify-evenly p-12'>
+            <div className='md:flex text-center items-center justify-evenly p-12'>
                 {Array.from({ length: 3 }, (_, index) => (
                     <>
                     <svg key={index} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="orange" className="bi bi-award-fill" viewBox="0 0 16 16">

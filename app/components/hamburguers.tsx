@@ -132,9 +132,9 @@ export default function Hamburguers(){
             {Array.from({length:3}, (_, index) => (
                      <div key={index} className='botaoZoom hover:scale-105 transition flex-col p-12 card rounded-t-lg'>
                      <div>
-                         <Image className='w-80 rounded-t-lg' src={Hamburguer} alt='person'/>
+                         <Image className='rounded-t-lg' src={Hamburguer} alt='person'/>
                      </div>
-                     <div className='w-80 p-3 text-2xl rounded-b-lg bg-slate-200'>
+                     <div className='p-3 text-2xl rounded-b-lg bg-slate-200'>
                      <p className='p-2 text-3xl'>X-burguer</p>
                      <p className='p-2'>R$ 8,00</p>
                      <div className='text-end p-4'>
