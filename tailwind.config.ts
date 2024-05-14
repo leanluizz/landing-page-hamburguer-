@@ -15,7 +15,7 @@ const config: Config = {
       },
       animation: {
         'bounce': 'bounce 1s linear infinite',
-        'pulse': 'pulse 0.5s linear infinite' 
+        'pulse': 'pulse 0.5s linear infinite' ,
       }
     },
   },

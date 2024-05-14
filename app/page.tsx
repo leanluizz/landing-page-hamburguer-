@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 //Components
 import HomePage from './components/home';
+import Hamburguers from './components/hamburguers';
 
 //Images
 import icon from './favicon.ico';
@@ -31,7 +32,7 @@ export default function Home() {
       const { target } = e;
       const namePage = target?.children[0]?.innerHTML;
       namePage == 'Home' ?  setPage(<HomePage />) : null;
-      namePage == 'Hamburgueres' ?  setPage('Hamburgueres') : null;
+      namePage == 'Hamburgueres' ?  setPage(<Hamburguers />) : null;
       namePage == 'Contact' ?  setPage('Contact') : null; 
     }
     const TradePagesClick = (e: any) => {
@@ -41,7 +42,7 @@ export default function Home() {
       const { target } = e;
       const namePage = target?.innerHTML;
       namePage == 'Home' ?  setPage(<HomePage />) : null;
-      namePage == 'Hamburgueres' ?  setPage('Hamburgueres') : null;
+      namePage == 'Hamburgueres' ?  setPage(<Hamburguers />) : null;
       namePage == 'Contact' ?  setPage('Contact') : null
 
     }
@@ -59,7 +60,7 @@ export default function Home() {
                   <h1 className="text-3xl p-10">Hambúrguer</h1>
                   </div>
               </div>
-              <div className='animate__animated animate__backInDown flex items-center'>
+              <div className='hover:animate-pulse animate__animated animate__backInDown flex items-center'>
             <Image src={ImageHome} className='w-16' alt='mini'/>
             <p>Interaja clicando aqui ou na tela para liberar os efeitos sonoros!</p>
             </div>
