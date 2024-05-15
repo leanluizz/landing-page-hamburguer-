@@ -30,8 +30,9 @@ export default function Contact (){
             </audio>
         <h1 className="animate__animated animate__delay-1s	1s animate__slideInLeft text-4xl p-6 m-6">Gostou da estética do site e quer um igual?</h1>
         <h2 className="animate__animated animate__delay-2s	2s animate__slideInLeft text-4xl p-6 m-6">Entre em contato comigo...</h2>
+        <a href="https://wa.me/31984079226">
         <Image className="md:hover:animate-bounce cursor-pointer botaoZoom block m-auto w-80 rounded-full" src={Profile} alt="profile"/>
-        
+        </a>
         <div className="flex items-center justify-center">
         <a href="https://github.com/leanluizz" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" fill="currentColor" className="w-32 md:w-80 hover:animate-bounce md:m-10 m-2 botaoZoom cursor-pointer bi bi-github" viewBox="0 0 16 16">
