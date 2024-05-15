@@ -6,6 +6,7 @@ import Image from 'next/image';
 //Components
 import HomePage from './components/home';
 import Hamburguers from './components/hamburguers';
+import Contact from './components/contact';
 
 //Images
 import icon from './favicon.ico';
@@ -33,7 +34,7 @@ export default function Home() {
       const namePage = target?.children[0]?.innerHTML;
       namePage == 'Home' ?  setPage(<HomePage />) : null;
       namePage == 'Hamburgueres' ?  setPage(<Hamburguers />) : null;
-      namePage == 'Contact' ?  setPage('Contact') : null; 
+      namePage == 'Contact' ?  setPage(<Contact />) : null; 
     }
     const TradePagesClick = (e: any) => {
       const Switch = document.getElementById('switch') as HTMLAudioElement;
@@ -43,7 +44,7 @@ export default function Home() {
       const namePage = target?.innerHTML;
       namePage == 'Home' ?  setPage(<HomePage />) : null;
       namePage == 'Hamburgueres' ?  setPage(<Hamburguers />) : null;
-      namePage == 'Contact' ?  setPage('Contact') : null
+      namePage == 'Contact' ?  setPage(<Contact />) : null
 
     }
   return (

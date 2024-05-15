@@ -4,7 +4,7 @@ import pexels from '@/app/images/pexels.png';
 export default function Footer () {
     return (
         <>
-        <div className="bg-orange-500">
+        <div className="w-screen bg-orange-500">
         <div className='h-auto flex items-center'>
         <Image className="cursor-pointer w-16 mt-5 ml-5" src={icon} alt="icon" />
         <h1 className="text-3xl p-10">Hambúrguer</h1>

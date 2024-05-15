@@ -26,6 +26,7 @@ body {
     rgb(214, 219, 220);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 
 @layer utilities {
