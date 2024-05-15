@@ -30,7 +30,7 @@ export default function Contact (){
             </audio>
         <h1 className="animate__animated animate__delay-1s	1s animate__slideInLeft text-4xl p-6 m-6">Gostou da estética do site e quer um igual?</h1>
         <h2 className="animate__animated animate__delay-2s	2s animate__slideInLeft text-4xl p-6 m-6">Entre em contato comigo...</h2>
-        <Image className="hover:animate-bounce cursor-pointer botaoZoom block m-auto w-80 rounded-full" src={Profile} alt="profile"/>
+        <Image className="md:hover:animate-bounce cursor-pointer botaoZoom block m-auto w-80 rounded-full" src={Profile} alt="profile"/>
         
         <div className="flex items-center justify-center">
         <a href="https://github.com/leanluizz" target="_blank">
