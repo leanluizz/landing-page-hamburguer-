@@ -138,7 +138,7 @@ export default function Hamburguers(){
                      <p className='p-2 text-3xl'>X-burguer</p>
                      <p className='p-2'>R$ 8,00</p>
                      <div className='text-end p-4'>
-                     <button onClick={Buy} className='eating bg-gradient-to-b from-red-600 hover:from-red-500 hover:to-red-600 to-red-400 rounded p-2'>Comprar</button>
+                     <button onClick={Buy} className='eating bg-gradient-to-b from-red-600 hover:from-red-500 hover:to-red-600 to-red-400 rounded p-2'>Carrinho</button>
                      </div>
                      </div>
                  </div>

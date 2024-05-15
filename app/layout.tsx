@@ -3,7 +3,7 @@ import { bebas } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "EcommerceDaDio",
+  title: "Ecommerce-Hamburguer",
 };
 
 export default function RootLayout({
