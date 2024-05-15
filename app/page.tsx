@@ -65,7 +65,17 @@ export default function Home() {
             <Image src={ImageHome} className='w-16' alt='mini'/>
             <p>Interaja clicando aqui ou na tela para liberar os efeitos sonoros!</p>
             </div>
-            
+              <ul>
+                  <div
+                      className="flex"
+                      onMouseMove={handleMouseMove}
+                  >
+                      <li onClick={TradePagesClick} onMouseEnter={TradePages} className="switch cursor-pointer text-xl p-4 md:p-8"><a>Home</a></li>
+                      <li onClick={TradePagesClick} onMouseEnter={TradePages} className="switch cursor-pointer text-xl p-4 md:p-8"><a>Hamburgueres</a></li>
+                      <li onClick={TradePagesClick} onMouseEnter={TradePages} className="switch cursor-pointer text-xl p-4 md:p-8"><a>Contact</a></li>
+                  </div>
+                  <hr style={{ width:barLinksMenuWidth, marginLeft: barLinksMenuMarginLeft }} className="hidden md:block border border-orange-500" />
+              </ul>
           </div>
       </nav>
      <div>
