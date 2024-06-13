@@ -37,4 +37,5 @@ Curtiu o design do site? deixe seu feedback comigo
 ## Contato: 
 
 email: luizzleandro827@gmail.com
+
 linkedin: [linkedin](https://www.linkedin.com/in/leandroluizz/)
